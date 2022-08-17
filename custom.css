@@ -1,0 +1,78 @@
+/* reset margin, padding */
+body {
+  margin: 0 !important;
+  padding: 0 !important;
+}
+
+.red {
+  border: 1px solid red;
+}
+
+.green {
+  border: 1px solid green;
+}
+
+.baner {
+  height: 780px;
+  background: url("./grunge-paint-background_1409-1337.webp") center center no-repeat;
+  padding: 20px;
+}
+.baner .ABOUT-SIGN-IN {
+  height: 80px;
+  width: 100%;
+  text-align: right;
+}
+.baner .ABOUT-SIGN-IN .ABOUT,
+.baner .ABOUT-SIGN-IN .SIGN-IN {
+  margin-top: 20px;
+  padding: 7px 15px;
+  text-decoration: none;
+  display: inline-block;
+}
+.baner .ABOUT-SIGN-IN .SIGN-IN {
+  margin-right: 60px;
+  margin-left: 25px;
+  border: 1px solid green;
+  border-radius: 25px;
+}
+.baner .logo {
+  background: url("./download.png") center center no-repeat;
+  margin-top: 40px;
+  height: 400px;
+}
+.baner .text {
+  text-align: center;
+  margin-top: 30px;
+}
+.baner .text span {
+  color: green;
+}
+.baner .btn-start-now {
+  text-align: center;
+}
+.baner .btn-start-now button {
+  text-transform: uppercase;
+  padding: 10px 15px;
+  border: 1px solid green;
+  border-radius: 25px;
+  margin-top: 25px;
+  cursor: pointer;
+}
+.baner .content-center .left,
+.baner .content-center .right,
+.baner .content-center .center {
+  width: 33%;
+  display: inline-block;
+  text-align: center;
+  margin-top: 0px;
+  margin-bottom: 0px;
+}
+.baner .content-center span {
+  display: block;
+  font-size: 30px;
+  padding-top: 5px;
+}
+.baner .content-center img {
+  width: 50px;
+  height: 50px;
+}
